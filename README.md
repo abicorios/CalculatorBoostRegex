@@ -23,6 +23,8 @@ C++
 
 Download and install **Visual Studio Comunity Edition** https://www.visualstudio.com
 
+![](./vc2017cppInstall.png)
+
 Download and install **Git** https://git-scm.com/
 
 # Building
