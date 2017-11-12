@@ -36,5 +36,5 @@ git clone https://github.com/abicorios/CalculatorBoostRegex
 
 cd CalculatorBoostRegex
 
-msbuild CalculatorBoostRegex.sln /t:Rebuild
+Make.bat
 ```
