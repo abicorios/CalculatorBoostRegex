@@ -1,7 +1,4 @@
 # CalculatorBoostRegex
-The console calculator for the complicated math which use Boost Regex for the parsing.
-
-# Calculator
 This console calculator use the regular expressions for the parsing of the input for the detecting of the numbers and the mathematical signs.
 
 It is nice for the complicated calculations with many numbers and brackets. You can use ^ or ** for the power operation, any brackets as you want (){}[] and operations +-*/
@@ -22,10 +19,13 @@ Operation system Windows 10
 
 C++
 
-# Building
+# Requirement
+
 Download and install **Visual Studio Comunity Edition** https://www.visualstudio.com
 
 Download and install **Git** https://git-scm.com/
+
+# Building
 
 From the Windows start menu open **Developer Command Prompt for VS2017**
 
@@ -38,3 +38,7 @@ cd CalculatorBoostRegex
 
 Make.bat
 ```
+
+The result is the **CalculatorBoostRegex.exe** file in the **x64\Release** folder.
+
+The **Make.bat** script run **nuget restore** command, which download **boost_regex-vc141** NuGet prebuilded package https://www.nuget.org/packages/boost_regex-vc141/, which need 580 MB disk space. Thank you, Sergey Shandar, for building **boost_regex-vc141** package.
