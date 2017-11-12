@@ -23,6 +23,8 @@ C++
 
 Download and install **Visual Studio Comunity Edition** https://www.visualstudio.com
 
+Along install select **Desctop development with C++**, as it imaged on the picture.
+
 ![](./vc2017cppInstall.png)
 
 Download and install **Git** https://git-scm.com/
