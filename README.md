@@ -13,14 +13,14 @@ out[1]:2.35736e-41={[1+2+3]/(4+5+6+7)}^{8*9}
 ```
 # Platform
 
-Operation system Windows 10
+Operation system Windows 10 or Linux. Also, TermuxArch in Android is Linux too.
 
 # Programming language
 
 C++
 
 # Requirement
-
+**Windows**
 Download and install **Visual Studio Comunity Edition** https://www.visualstudio.com
 
 Along install select **Desctop development with C++**, as it imaged on the picture.
@@ -28,8 +28,11 @@ Along install select **Desctop development with C++**, as it imaged on the pictu
 ![](./vc2017cppInstall.png)
 
 Download and install **Git** https://git-scm.com/
+**Linux**
+Install GCC, Git and Boost by your package manager.
 
 # Building
+**Windows**
 
 From the Windows start menu open **Developer Command Prompt for VS2017**
 
@@ -46,3 +49,5 @@ Make.bat
 The result is the **CalculatorBoostRegex.exe** file in the **x64\Release** folder.
 
 The **Make.bat** script run **nuget restore** command, which download **boost_regex-vc141** NuGet prebuilded package https://www.nuget.org/packages/boost_regex-vc141/, which need 580 MB disk space. Thank you, Sergey Shandar, for building **boost_regex-vc141** package.
+**Linux**
+Run **make.sh**.
