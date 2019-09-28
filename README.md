@@ -13,7 +13,7 @@ out[1]:2.35736e-41={[1+2+3]/(4+5+6+7)}^{8*9}
 ```
 # Platform
 
-Operation system Windows 10 or Linux. Also, TermuxArch in Android is Linux too.
+Operation system Windows 10 or Linux. Also, TermuxArch in Android can be used like on Linux too.
 
 # Programming language
 
@@ -56,3 +56,6 @@ The **Make.bat** script run **nuget restore** command, which download **boost_re
 **Linux**
 
 Run **make.sh**.
+
+# Troubleshooting
+If it is not working on Windows, open a comand line and enter the `nuget` command. If command is not found, install the Chocolatey from the oficial website https://chocolatey.org/ and run as admin `choco install NuGet.CommandLine -y`. 
